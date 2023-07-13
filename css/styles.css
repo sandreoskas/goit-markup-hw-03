@@ -1,0 +1,314 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--white-color);
+}
+
+:root {
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --logo-color: #4d5ae5;
+    --text-color: #434455;
+    --white-color: #FFFFFF;
+    --link-color: #404bbf;
+    --backgr-color: #F4F4FD;
+}
+
+/**-------Bez krapok v spiskax-----*/
+.list {
+    list-style: none;
+}
+
+/**--------Bez pidkreslenya--------*/
+.link {
+    text-decoration: none;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+
+/**------INDEX-----Header------------*/
+.header {}
+
+.header-navigation {}
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-logo {
+    color: var(--logo-color);
+}
+
+.span-header {
+    color: var(--title-color);
+}
+
+.header-menu {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--link-color);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-menu {
+    /* color: var(--text-color); */
+}
+
+.address-item {}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--link-color);
+}
+
+/*todo----INDEX----Main-------------*/
+
+/**-------INDEX---Section 1---------*/
+.reclama {
+    background-color: var(--title-color);
+}
+
+.reclama-effective {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.reclama-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    cursor: pointer;
+    background-color: var(--logo-color);
+}
+
+.reclama-btn:hover,
+.reclama-btn:focus {
+    background-color: var(--link-color);
+}
+
+/**-------INDEX---Section 2---------*/
+.directions {}
+
+.directions-title {}
+
+.directions-menu {}
+
+.directions-item {}
+
+.directions-subtitle {}
+
+.directions-subtext {}
+
+/**-------INDEX---Section 3---------*/
+.doing {}
+
+.doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+    text-align: center;
+}
+
+.doing-menu {}
+
+.doing-item {}
+
+/**-------INDEX---Section 4---------*/
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+    text-align: center;
+}
+
+.team-menu {}
+
+.team-item {
+    background-color: var(--white-color);
+}
+
+.team-subtitle {}
+
+.team-subtext {}
+
+/**-------INDEX---Footer---------*/
+.footer {
+    background-color: var(--title-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+    text-decoration: none;
+}
+
+.footer-logo {
+    color: var(--logo-color);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--backgr-color);
+}
+
+.span-footer {
+    color: var(--backgr-color);
+}
+
+/**---PORTFOLIO------Header---------*/
+
+.p-header-menu {}
+
+.p-header-menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    text-decoration: none;
+}
+
+.p-header-menu-link {
+    color: var(--title-color);
+}
+
+.p-header-menu-link:hover,
+.p-header-menu-link:focus {
+    color: var(--link-color);
+}
+
+.p-header-address {
+    font-style: normal;
+}
+
+.p-header-address-menu {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.p-address-item {
+    color: var(--text-color);
+}
+
+.p-address-link {
+    color: var(--text-color);
+}
+
+.p-address-link:hover,
+.p-address-link:focus {
+    color: var(--link-color);
+}
+
+/**---PORTFOLIO------Block1------------*/
+.button-menu {
+    list-style: none;
+}
+
+.button-menu-item {}
+
+.button-menu-general {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    cursor: pointer;
+    background-color: var(--backgr-color);
+}
+
+.button-menu-general:hover,
+.button-menu-general:focus {
+    color: var(--white-color);
+    background-color: var(--link-color);
+}
+
+/**---PORTFOLIO------Block 2-4----------*/
+
+.section-menu {
+    list-style: none;
+}
+
+.section-item {}
+
+.block {
+    text-decoration: none;
+}
+
+.block-title {}
+
+.block-text {}
+
+
+
+/**---PORTFOLIO------Footer-------------*/
